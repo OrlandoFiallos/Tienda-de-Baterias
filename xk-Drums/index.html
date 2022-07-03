@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <scrip
+      src="https://kit.fontawesome.com/5c37b504c1.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Aos Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5c37b504c1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/simple-lightbox.min.css">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>MF-Drums</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-wrapper">
+          <div class="container">
+            <a href="#!" class="brand-logo brand">MF-Drums</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+              ><i class="material-icons">menu</i></a
+            >
+            <ul class="right hide-on-med-and-down menunav">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#drummers">Drummers</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Drummers</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </header>
+
+    <main class="main-info" id="home">
+      <div class="absolute-title">
+        <h3 data-aos="flip-left" data-aos-duration="2000">MF-Drums</h3>
+      </div>
+      <div class="container">
+        <div data-aos="fade-right" data-aos-duration="2000">
+          <h1><span>Feel</span> The Beats</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi
+            minus adipisci at eos est sapiente explicabo, vero blanditiis
+            quibusdam laudantium, quia, ducimus aperiam repudiandae! Qui!
+          </p>
+          <button class="btn-info">Read More</button>
+        </div>
+        <img data-aos="fade-left" data-aos-duration="2000" src="./img/bg.png" alt="XK-Drums Pearl" />
+      </div>
+    </main>
+
+    <article class="overlay-section">
+      <div class="overlay">
+        <div class="container">
+          <h3>XK Overlay</h3>
+          <h2>"Music is the shorthand of the emotions."</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non
+            reiciendis assumenda, beatae voluptatum ratione aliquid.
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <article class="products" id="products">
+      <section class="product-title">
+        <h2 data-aos="fade-up" data-aos-duration="2000">Our Products</h2>
+        <div class="divider"></div>
+      </section>
+
+      <div data-aos="fade-up" data-aos-duration="3000" class="carousel" id="gallery">
+        <a class="carousel-item" href="#"
+          ><img src="./img/Productos/7.png" />
+          <h5>Sonor</h5>
+        </a>
+        <a class="carousel-item" href="#"
+          ><img src="./img/Productos/bateria1.png" />
+          <h5>Roland</h5>
+        </a>
+        <a class="carousel-item" href="#"
+          ><img src="./img/Productos/bateria3.png" />
+          <h5>Ludwig</h5></a
+        >
+        <a class="carousel-item" href="#"
+          ><img src="./img/Productos/bateria4.png" />
+          <h5>SJC</h5></a
+        >
+        <a class="carousel-item" href="#"
+          ><img src="./img/Productos/bateria6.png" />
+          <h5>Pearl</h5></a
+        >
+      </div>
+    </article>
+
+    <svg class="skew" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#000"
+        fill-opacity="1"
+        d="M0,64L1440,288L1440,320L0,320Z"
+        data-darkreader-inline-fill=""
+        style="--darkreader-inline-fill: #007acc"
+      ></path>
+    </svg>
+
+    <section class="our-drummers" id="drummers">
+      <h2>Our Drummers</h2>
+      <div class="divider"></div>
+      <div class="drummers">
+        <div class="gallery">
+          <a href="img/Drummers/vinnie.jpeg "><img src="img/Drummers/vinnie.jpeg" alt="" title=""/></a>
+          <a href="img/Drummers/portnoy.jpg"><img src="img/Drummers/portnoy.jpg" alt="" title="Beautiful Image"/></a>
+          <a href="img/Drummers/tomas'.jpg"><img src="img/Drummers/tomas'.jpg" alt="" title=""/></a>
+          <a href="img/Drummers/dave.jpg"><img src="img/Drummers/dave.jpg" alt="" title=""/></a>
+          <a href="img/Drummers/Mana-Alex-Gonzalez.jpg"><img src="img/Drummers/Mana-Alex-Gonzalez.jpg" alt="" title=""/></a>
+          <a href="img/Drummers/eric.jpeg"><img src="img/Drummers/eric.jpeg" alt="" title=""/></a>
+
+      </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <form class="container-form">
+        <h2>Keep in Touch</h2>
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Subject">
+        <textarea placeholder="Message">Message...</textarea>
+        <button class="btn-info">Send Message</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="social-media">
+          <h2>MF-Drums</h2>
+          <a href="https://es-la.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+          <a href="linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+        <div class="info">
+          <h3>Company Info</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#drummers">Drummers</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="blog">
+          <h3>Blog</h3>
+          <ul>
+            <li><a href="#">Blog 1</a></li>
+            <li><a href="#">Blog 2</a></li>
+            <li><a href="#">Blog 3</a></li>
+            <li><a href="#">Blog 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+     
+    <!-- Aos Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/simple-lightbox.min.js"></script>
+    <script src="./js/scripts.js"></script>
+    <script>
+      // Lightbox
+      var lightbox = new SimpleLightbox(".gallery a", {
+        /* options */
+      });
+    </script>
+  </body>
+</html>
